@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.turan</span><span class="s0">;</span>
+<span class="s0">import </span><span class="s1">java.util.Scanner</span><span class="s0">;</span>
+
+<span class="s0">public class </span><span class="s1">Main {</span>
+
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">Scanner sayigirdi=</span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;1.sayıyı giriniz&quot;</span><span class="s1">)</span><span class="s0">;</span>
+	<span class="s0">int </span><span class="s1">deger1=sayigirdi.nextInt()</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;2.sayıyı giriniz&quot;</span><span class="s1">)</span><span class="s0">;</span>
+	<span class="s0">int </span><span class="s1">deger2=sayigirdi.nextInt()</span><span class="s0">;</span>
+
+	<span class="s0">int </span><span class="s1">toplamdeger=deger1+deger2</span><span class="s0">;</span>
+	<span class="s0">int </span><span class="s1">farkdeger=deger1-deger2</span><span class="s0">;</span>
+    <span class="s0">int </span><span class="s1">carpimdeger=deger1*deger2</span><span class="s0">;</span>
+    <span class="s0">float </span><span class="s1">bolumdeger=deger1/deger2</span><span class="s0">;</span>
+
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Toplam: &quot;</span><span class="s1">+toplamdeger)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Fark: &quot;</span><span class="s1">+farkdeger)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Çarpım: &quot;</span><span class="s1">+carpimdeger)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s2">&quot;Bolum: &quot;</span><span class="s1">+bolumdeger)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
